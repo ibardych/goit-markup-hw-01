@@ -1,8 +1,45 @@
 body {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 20px;
+}
+
+.main-content {
+	padding: 20px;
+}
+
+.what-we-do {
+	display: flex;
+	column-gap: 20px;
+}
+
+.what-we-do img {
+	width: 100%;
+}
+
+.our-team {
+	display: flex;
+	column-gap: 20px;
+}
+
+.our-team img {
+	width: 100%;
+}
+
+footer {
+	padding: 20px;
+	background-color: #2f303a;
+}
+
+footer .contacts {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
 }
