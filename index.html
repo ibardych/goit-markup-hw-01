@@ -4,28 +4,41 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<!-- <link rel="stylesheet" href="css/styles.css" /> -->
 		<link rel="shortcut icon" href="images/favicon.ico" />
+
+		<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+			rel="stylesheet"
+		/> -->
+
 		<title>Web Studio</title>
 	</head>
 	<body>
 		<header>
-			<img width="145" src="images/webstudio-logo.svg" alt="webstudio logo" />
-			<ul>
-				<li>Студія</li>
-				<li>Портфоліо</li>
-				<li>Контакти</li>
-			</ul>
-			<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-			<a href="tel:+380961111111">+38 096 111 11 11</a>
-		</header>
-
-		<div class="main-content">
+			<div class="logo">
+				<a href="/" title="to home"><span>Web</span>Studio</a>
+			</div>
+			<nav>
+				<ul>
+					<li>Студія</li>
+					<li>Портфоліо</li>
+					<li>Контакти</li>
+				</ul>
+			</nav>
+			<div class="contacts">
+				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+				<a href="tel:+380961111111">+38 096 111 11 11</a>
+			</div>
 			<div class="top-block">
 				<h1>Ефективні рішення для вашого бізнесу</h1>
 				<button>Замовити послугу</button>
 			</div>
+		</header>
 
+		<main>
 			<div class="features">
 				<div>
 					<h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -57,51 +70,63 @@
 			<!-- What we do -->
 			<h2>Чим ми займаємося</h2>
 
-			<div class="what-we-do">
-				<div>
-					<img src="images/what-we-do-1.webp" alt="what we do 1" />
-				</div>
-				<div>
-					<img src="images/what-we-do-2.webp" alt="what we do 2" />
-				</div>
-				<div>
-					<img src="images/what-we-do-3.webp" alt="what we do 3" />
-				</div>
-			</div>
+			<ul class="what-we-do">
+				<li>
+					<img
+						width="370"
+						src="images/what-we-do-1.jpg"
+						alt="людина працює за комп'ютером"
+					/>
+				</li>
+				<li>
+					<img
+						width="370"
+						src="images/what-we-do-2.jpg"
+						alt="людина перед комп'ютером тримає смартфон у руках"
+					/>
+				</li>
+				<li>
+					<img
+						width="370"
+						src="images/what-we-do-3.jpg"
+						alt="людина тримає планшет в руках"
+					/>
+				</li>
+			</ul>
 
 			<!-- Our team -->
 			<h2>Наша команда</h2>
 
-			<div class="our-team">
-				<div>
-					<img src="images/team-1.webp" alt="Фото Ігор Дем'яненко" />
+			<ul class="our-team">
+				<li>
+					<img width="270" src="images/team-1.jpg" alt="Фото Ігор Дем'яненко" />
 					<div class="name">Ігор Дем'яненко</div>
 					<div class="position">Product Designer</div>
-				</div>
-				<div>
-					<img src="images/team-2.webp" alt="Фото Ольга Рєпіна" />
+				</li>
+				<li>
+					<img width="270" src="images/team-2.jpg" alt="Фото Ольга Рєпіна" />
 					<div class="name">Ольга Рєпіна</div>
 					<div class="position">Frontend Developer</div>
-				</div>
-				<div>
-					<img src="images/team-3.webp" alt="Фото Микола Тарасов" />
+				</li>
+				<li>
+					<img width="270" src="images/team-3.jpg" alt="Фото Микола Тарасов" />
 					<div class="name">Микола Тарасов</div>
 					<div class="position">Marketing</div>
-				</div>
-				<div>
-					<img src="images/team-4.webp" alt="Фото Михайло Єрмаков" />
+				</li>
+				<li>
+					<img width="270" src="images/team-4.jpg" alt="Фото Михайло Єрмаков" />
 					<div class="name">Михайло Єрмаков</div>
 					<div class="position">UI Designer</div>
-				</div>
-			</div>
-		</div>
+				</li>
+			</ul>
+		</main>
 
 		<footer>
 			<div class="logo">
-				<img src="images/webstudio-logo.svg" alt="webstudio logo" />
+				<a href="/" title="to home"><span>Web</span>Studio</a>
 			</div>
 			<div class="contacts">
-				<span>м. Київ, пр-т Лесі Українки, 26</span>
+				<address>м. Київ, пр-т Лесі Українки, 26</address>
 				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
 				<a href="tel:+380961111111">+38 096 111 11 11</a>
 			</div>
